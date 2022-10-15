@@ -1,0 +1,64 @@
+.Login{
+    background-image: url("../Images/unsplash.png");
+    height: 100vh;
+    }
+  
+    .stepping_stones{
+      font-size: 50px;
+      color: beige;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      margin-left: 37%;
+      position: absolute;
+      margin-top: 10%;
+    }
+    .sub_stones{
+      // display: flex;
+      justify-content: center;
+      height: 400px;
+      width: 45%;
+      box-shadow: 8px 8px 8px 8px rgb(207,207,207);
+      padding-top: 30px;
+      border-radius: 20px;
+      background-color: aliceblue;
+      position:absolute;
+      margin-top: 17%;
+      margin-left: 28%;
+  
+      label{
+        margin-left: 5%;
+        font-size: 20px;
+      }
+  
+      input{
+         width: 450px;
+         height: 48px;
+         border-radius: 5px;
+         margin-top: 35px;
+         margin-left: 2%
+      }
+  
+      button{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: 5%;
+      }
+  
+      h5{
+        margin-left: 5%;
+      }
+    }
+
+    .show_hide{
+      position: absolute;
+      left: 80%;
+      top: 50%;
+    }
+  
+  
