@@ -8,7 +8,18 @@ import { TextField } from './TextField';
 
 export const Signup = () => {
 
-  const validate = Yup.object({
+  // Yup.object().shape({
+  //   email: Yup.string()
+    
+  //     // Format Validation
+  //     .email("Invalid email address format")
+    
+  //     // Required Field Validation
+  //     .required("Email is required"),
+
+  const validate =
+  
+  Yup.object({
     firstName: Yup.string()
       .max(5, 'Must be 5 characters or less')
       .required('Required'),
@@ -46,7 +57,8 @@ onSubmit={values => {
       <TextField label="First Name" name="firstName" type="text" />
       <TextField label="password" name="password" type="password" />
       <Link to={"/Logout"}>
-      <button onClick={()=> onSubmit(validate)} className="btn btn-dark mt-3" type="submit">Login</button></Link>
+      <button onClick={()=> onSubmit(validate)} className="btn btn-dark mt-3" type="submit">Login</button>
+      </Link>
       <button className="btn btn-danger mt-3 ml-3" type="reset">Reset</button>
       {/* <button onClick={()=>navigate("./Logout")}>click</button> */}
     </Form>
